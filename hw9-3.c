@@ -28,17 +28,23 @@ int main()
                 a[i][2] * b[2][j];
         }
     }
+	printf("The multiplication product of matrix A and matrix B:\n");
 	for ( i=0; i<2; i++)
 	{
 		for(j=0; j<2; j++)
 		{
-			printf("%.1f ", c[i][j]);
+			if (c[i][j] == (int)c[i][j])
+    printf("%d ", (int)c[i][j]);
+else
+    printf("%.1f ", c[i][j]);
+
 		}
 	printf("\n");
 	}
 
 return 0;
 }
+
 
 
 
