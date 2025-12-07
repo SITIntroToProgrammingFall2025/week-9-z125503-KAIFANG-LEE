@@ -3,7 +3,7 @@ int main()
 {
 	double a[2][3], c[2][2];
 	double  b[3][2];
-	double i, j;
+	int i, j;
 	for(i = 0; i < 2; i++)
 		{
 			for(j=0; j<3; j++)
@@ -39,6 +39,7 @@ int main()
 
 return 0;
 }
+
 
 
 
