@@ -13,7 +13,7 @@ int main()
 		}
 	}
 	printf("the result of your input array:\n");
-	for ( i=0; i<3; i++)
+	for ( i=0; i<2; i++)
 	{
 		for(j=0; j<2; j++)
 		{
@@ -25,4 +25,5 @@ int main()
 	printf("%d", deter);
 return 0;
 }
+
 
