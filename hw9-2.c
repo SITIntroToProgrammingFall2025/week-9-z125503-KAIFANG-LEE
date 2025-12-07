@@ -22,8 +22,8 @@ for ( i=0; i<3; i++)
 		printf("%d ", b[i][j]);
 	}
 	printf("\n");
-}
 return 0;
 }
+
 
 
