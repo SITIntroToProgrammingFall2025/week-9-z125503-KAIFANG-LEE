@@ -22,8 +22,7 @@ int main()
 	printf("\n");
 	}
 	deter = a[0][0] * a[1][1] - a[0][1]*a[1][0];
+	printf("%d", deter);
 return 0;
 }
-
-
 
