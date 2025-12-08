@@ -28,7 +28,8 @@ hex[6]=hex2[b2];
 
 for(i=0; i<7; i++)
 		{
-			printf("%c", hex[i]);
+			printf("The hex code is %c", hex[i]);
 		}
 return 0;
 }
+
