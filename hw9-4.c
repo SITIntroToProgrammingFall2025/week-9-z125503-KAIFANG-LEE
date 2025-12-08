@@ -25,11 +25,12 @@ hex[4]=hex2[g2];
 hex[5]=hex2[b1];
 hex[6]=hex2[b2];
 
-
+printf("The hex code is");
 for(i=0; i<7; i++)
 		{
-			printf("The hex code is %c", hex[i]);
+			printf(" %c", hex[i]);
 		}
 return 0;
 }
+
 
