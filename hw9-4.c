@@ -5,7 +5,7 @@ int main() {
 int rgb[3], i;
 char hex[7];
 int R, G, B, r1, g1, b1;
-double r2, g2, b2;
+int r2, g2, b2;
 char hex2[16] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
 scanf("%d %d %d", &R, &G, &B);
 
@@ -32,5 +32,3 @@ for(i=0; i<7; i++)
 		}
 return 0;
 }
-
-
