@@ -11,6 +11,7 @@ int main() {
     int d_red   = (r - 255)*(r - 255) + g*g + b*b;
     int d_green = r*r + (g - 255)*(g - 255) + b*b;
     int d_blue  = r*r + g*g + (b - 255)*(b - 255);
+    int d_white = (r - 255)*(r - 255) + (g - 255)*(g - 255) + (b - 255)*(b - 255); 
 
     int min = d_black;
     char *nearest = "Black";
@@ -26,6 +27,10 @@ int main() {
     if (d_blue < min) {
         min = d_blue;
         nearest = "Blue";
+    }
+    if (d_white < min) {             
+        min = d_white;
+        nearest = "White";
     }
 
     printf("The nearest color is %s\n", nearest);
