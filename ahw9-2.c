@@ -18,13 +18,14 @@ int main() {
             }
         }
     }
-
+    printf("sorted array:\n");
     for (i = 0; i < 5; i++) {
-        printf("sorted array:\n%d ", a[i]);
+        printf("%d ", a[i]);
     }
 
     return 0;
 }
+
 
 
 
